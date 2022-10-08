@@ -1,0 +1,82 @@
+# Prepared by the U.S. Dept. of Commerce, NOAA, Space Environment Center.
+# Please send comments and suggestions to sec@sec.noaa.gov 
+# 
+# Source: NOAA POES (Whatever is aloft)
+# Units: gigawatts
+
+# Format:
+
+# The first line of data contains the four-digit year of the data.
+# Each following line is formatted as in this example:
+
+# NOAA-12(S)  10031     9.0  4    .914
+
+# Please note that if the first line of data in the file has a
+# day-of-year of 365 (or 366) and a HHMM of greater than 2300, 
+# that polar pass started at the end of the previous year and
+# ended on day-of-year 001 of the current year.
+
+# A7	NOAA POES Satellite number
+# A3	(S) or (N) - hemisphere
+# I3	Day of year
+# I4	UT hour and minute
+# F8.1	Estimated Hemispheric Power in gigawatts
+# I3	Hemispheric Power Index (activity level)
+# F8.3	Normalizing factor
+
+1998
+NOAA-12(S)  60032     6.2  4    .965
+NOAA-14(N)  60050    15.9  6   1.078
+NOAA-12(N)  60123     8.2  4   1.348
+NOAA-14(S)  60142     8.3  4   2.341
+NOAA-12(S)  60215    17.2  6    .767
+NOAA-14(N)  60233    28.7  7   1.453
+NOAA-12(N)  60305    10.1  5   2.656
+NOAA-14(S)  60326    42.7  8    .940
+NOAA-12(S)  60356    22.2  6    .774
+NOAA-14(N)  60418    46.8  8   1.561
+NOAA-12(N)  60448    63.0  9   5.993
+NOAA-14(S)  60508    22.3  6   1.103
+NOAA-12(S)  60539    12.2  5    .914
+NOAA-12(N)  60631    21.8  6   4.207
+NOAA-14(S)  60651    24.8  7   1.174
+NOAA-12(S)  60722    36.4  7    .747
+NOAA-14(N)  60742    16.6  6    .893
+NOAA-12(N)  60814    11.3  5   2.345
+NOAA-14(S)  60833    32.5  7   1.147
+NOAA-12(S)  60904    13.5  5   1.000
+NOAA-14(N)  60923    19.1  6    .984
+NOAA-12(N)  60955    32.6  7   1.539
+NOAA-14(S)  61014    11.1  5    .960
+NOAA-12(S)  61046     9.2  4   1.022
+NOAA-14(N)  61105     6.6  4    .903
+NOAA-12(N)  61137    12.6  5    .884
+NOAA-14(S)  61155     3.2  2    .780
+NOAA-12(S)  61227     6.5  4    .961
+NOAA-14(N)  61245    11.4  5   1.019
+NOAA-12(N)  61317     6.2  3    .848
+NOAA-14(S)  61336     7.8  4    .945
+NOAA-12(S)  61407    13.2  5    .954
+NOAA-14(N)  61426    37.7  7   1.142
+NOAA-12(N)  61458    37.9  7   1.059
+NOAA-14(S)  61516    39.2  8   1.033
+NOAA-12(S)  61547    40.6  8   1.144
+NOAA-14(N)  61607    45.8  8   1.048
+NOAA-12(N)  61637    36.0  7   1.109
+NOAA-14(S)  61658   164.4 10   1.157
+NOAA-12(S)  61727   115.3 10   1.398
+NOAA-14(N)  61748    84.7  9    .875
+NOAA-12(N)  61817    54.2  8   1.149
+NOAA-14(S)  61839    55.9  8    .991
+NOAA-12(S)  61907    45.4  8   1.075
+NOAA-14(N)  61930    73.5  9    .818
+NOAA-12(N)  61957    30.2  7   1.021
+NOAA-14(S)  62021   140.5 10    .721
+NOAA-12(S)  62048    41.4  8    .892
+NOAA-14(N)  62113    60.9  9    .827
+NOAA-12(N)  62138    50.0  8   1.040
+NOAA-14(S)  62203    26.2  7    .740
+NOAA-12(S)  62229    48.0  8    .740
+NOAA-14(N)  62255    90.3  9   1.027
+NOAA-12(N)  62318    71.0  9   1.163
+NOAA-14(S)  62347    46.6  8    .751
