@@ -70,10 +70,10 @@ F		if you want to run with msis and iri only (i.e. not GITM)
 1.0		dt for output to a log file
 
 #SAVEPLOTS
-43200.0		dt for writing restart files
+3600.0		dt for writing restart files
 1		how many output files do you want
 3DALL		second output style
-43200.0		dt for output (1 every 5 min)
+3600.0		dt for output (1 every 5 min)
 
 #ELECTRODYNAMICS
 60.0		how often to update potential
