@@ -238,7 +238,7 @@ Use This to specify which species are photochemical and which are not.
 The default is that none are photochemical
 
 #PHOTOCHEMICAL
-T               O(3P)
+F               O(3P)
 F               O2
 F               N2
 T               N(4S)
