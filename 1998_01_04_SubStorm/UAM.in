@@ -233,4 +233,16 @@ F		Use Fang 2010 and 2013 energy deposition
 #IONPRECIPITATION
 F		If ions are included in the AMIE file, use them. FangEnergy=T!
 -----------------------------------------------------------------
+
+Use This to specify which species are photochemical and which are not.
+The default is that none are photochemical
+
+#PHOTOCHEMICAL
+T               O(3P)
+F               O2
+F               N2
+T               N(4S)
+T               NO(4S)
+F               He
+
 #END

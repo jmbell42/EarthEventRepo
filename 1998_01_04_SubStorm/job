@@ -15,7 +15,7 @@
 #
 
 #PBS -S /bin/csh
-#PBS -N Ph4_Up1
+#PBS -N Ph6_Up1
 
 # ncpus should be a multiple of 4, mpiprocs=ncpus
 # set the number of CPU-s by changing select: nProc = select*mpiprocs
